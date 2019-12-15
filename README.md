@@ -25,8 +25,8 @@ npm run build
 
 ### Author
 
-Brad Traversy
-[Traversy Media](http://www.traversymedia.com)
+Vikrant Bhat
+[Vikrant Bhat](https://www.youtube.com/watch?v=6E4RoaGKCvY&list=PLPXR5c0kwv3FX8urLzWiSpYm9cqSSOVsN&index=17)
 
 ### Version
 
@@ -35,4 +35,5 @@ Brad Traversy
 ### License
 
 This project is licensed under the MIT License
+
 # lyricsBuddy
