@@ -5,6 +5,7 @@ import Search from "../tracks/Search";
 const Index = () => {
   return (
     <React.Fragment>
+      <br />
       <Search />
       <Tracks />
     </React.Fragment>

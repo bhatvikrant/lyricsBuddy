@@ -12,7 +12,7 @@ const Lyrics = props => {
     axios
       .get(
         `https://cors-anywhere.herokuapp.com/http://api.musixmatch.com/ws/1.1/track.lyrics.get?track_id=${
-          props.match.params.id
+        props.match.params.id
         }&apikey=${process.env.REACT_APP_MM_KEY}`
       )
       .then(res => {
@@ -21,11 +21,12 @@ const Lyrics = props => {
 
         return axios.get(
           `https://cors-anywhere.herokuapp.com/http://api.musixmatch.com/ws/1.1/track.get?track_id=${
-            props.match.params.id
+          props.match.params.id
           }&apikey=${process.env.REACT_APP_MM_KEY}`
         );
       })
       .then(res => {
+        console.log(res);
         let track = res.data.message.body.track;
         setTrack({ track });
       })
@@ -43,7 +44,7 @@ const Lyrics = props => {
     return (
       <>
         <Link to="/" className="btn btn-dark btn-sm mb-4">
-          Go Back
+          <i className="fas fa-chevron-left" /> Go Back
         </Link>
         <div className="card">
           <h5 className="card-header">
@@ -64,7 +65,7 @@ const Lyrics = props => {
             {track.track.primary_genres.music_genre_list.length === 0
               ? "NO GENRE AVAILABLE"
               : track.track.primary_genres.music_genre_list[0].music_genre
-                  .music_genre_name}
+                .music_genre_name}
           </li>
           <li className="list-group-item">
             <strong>Explicit Words</strong>:{" "}
