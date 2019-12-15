@@ -26,7 +26,7 @@ npm run build
 ### Author
 
 Vikrant Bhat
-[Vikrant Bhat](https://www.youtube.com/watch?v=6E4RoaGKCvY&list=PLPXR5c0kwv3FX8urLzWiSpYm9cqSSOVsN&index=17)
+[Link](https://www.youtube.com/watch?v=6E4RoaGKCvY&list=PLPXR5c0kwv3FX8urLzWiSpYm9cqSSOVsN&index=17)
 
 ### Version
 
